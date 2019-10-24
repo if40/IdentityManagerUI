@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Security.Claims;
-using IdentityManager2.Core;
+using IdentityManager.Core;
 
 namespace Host.InMemory
 {

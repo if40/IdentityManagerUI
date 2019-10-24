@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Host.InMemory;
-using IdentityManager2.Configuration;
+using IdentityManager.Configuration;
 using IdentityServer4;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
@@ -40,7 +40,7 @@ namespace Host
             var client = new Client
             {
                 ClientId = "identitymanager2",
-                ClientName = "IdentityManager2",
+                ClientName = "IdentityManager",
                 AllowedGrantTypes = GrantTypes.Implicit,
                 RedirectUris = {"http://localhost:5000/idm/signin-oidc"},
                 AllowedScopes = {"openid", "profile", "roles"},

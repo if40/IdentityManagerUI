@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityManager2;
-using IdentityManager2.Core;
-using IdentityManager2.Core.Metadata;
-using IdentityManager2.Extensions;
-using IdentityManager2.Resources;
+using IdentityManager;
+using IdentityManager.Core;
+using IdentityManager.Core.Metadata;
+using IdentityManager.Extensions;
+using IdentityManager.Resources;
 
 namespace Host.InMemory
 {

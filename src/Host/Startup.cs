@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using Host.InMemory;
-using IdentityManager2.Configuration;
+using IdentityManager.Configuration;
 
 namespace Host
 {
